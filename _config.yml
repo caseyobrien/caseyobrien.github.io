@@ -109,10 +109,10 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: mailto:cjobrienus@gmail.com
+      url: mailto:casey@caseyobrien.co
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      url: "https://caseyobrien.co"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/caseyobrien"
@@ -293,3 +293,10 @@ defaults:
       share: true
       related: #true
       classes: wide
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
