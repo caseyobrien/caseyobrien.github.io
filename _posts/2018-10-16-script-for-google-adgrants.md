@@ -16,10 +16,7 @@ detail is provided to allow us to remedy the problem.
 
 ## What do we test? 
 
-The answers to all of the following questions will be "yes" for an account in compliance with
-the Ad Grants program. Note that an account for which all the following questions are "yes," will
-not necessarily be in compliance with the Ad Grants program. There are other compliance criteria that
-this script does not evaluate, *and*
+We test everything that can be easily automated. An account that passes all the following tests will not necessarily be in compliance with the Ad Grants program. There are other compliance criteria that this script does not evaluate, *and*
 
 >Google reserves the right to grant or deny an organization's application or participation at any time, for any reason, and to supplement or amend these eligibility guidelines at any time. -[Google Ad Grants Terms and Conditions](https://support.google.com/grants/answer/46103)
 
