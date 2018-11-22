@@ -20,5 +20,5 @@ Yesterday, I rode the newly-constructed Milwaukee Streetcar, known as [The Hop](
 | Ogden at Astor EB           | 2 | 1:12.52  | -0:47.48 
 | Burns Commons               | 2 | 1:52.18  | -0:07.82   
 |===
-| **Total**                   | **15:00.38** |  **0:00.34**  | **15** 
+| **Total**                   | **15** |  **15:0.34** | **0:00.34**  | 
 {:.inner-borders}
