@@ -8,7 +8,7 @@ Yesterday, I rode the newly-constructed Milwaukee Streetcar, known as [The Hop](
 
 
 |---
-| Station | Expected Time Since Previous Stop | Time Since Previous Stop (min) | Difference From Schedule (min) 
+| Station | Expected Time Since Previous Stop (min) | Time Since Previous Stop (min) | Difference From Schedule (min) 
 |:-:|:-:|:-:|:-:
 | St. Paul at Plankinton EB   | 0 | 0:00.00  |  0:00.00  
 | Historic Third Ward EB      | 2 | 1:56.24  | -0:03.76 
