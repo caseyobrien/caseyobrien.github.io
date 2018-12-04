@@ -32,50 +32,44 @@ tags: [tutorials, .NET Core]
 ## Include CSS and JS References in _Layout.cshtml
 
 - In the `<head>` section, within `<environment include="development">`, add the following style sheet reference:
-
-{% highlight html %}
-<link rel="stylesheet" href="~/lib/jquery-datetimepicker/jquery.datetimepicker.css" />
-{% endhighlight %}
+  ```html
+  <link rel="stylesheet" href="~/lib/jquery-datetimepicker/jquery.datetimepicker.css" />
+  ```
 
 - Before the closing body tag, `</body>`, within `<environment include="development">`, add the following script references after any references to `jquery.js`: 
-
-{% highlight html %}
-<script src="~/lib/jquery-datetimepicker/jquery.datetimepicker.js" type="text/javascript"></script>
-<script src="~/lib/moment.js/moment.js"></script>
-<script src="~/js/DateTimePickerReady.js" type="text/javascript"></script>
-{% endhighlight %}
+  ```html
+  <script src="~/lib/jquery-datetimepicker/jquery.datetimepicker.js" type="text/javascript"></script>
+  <script src="~/lib/moment.js/moment.js"></script>
+  <script src="~/js/DateTimePickerReady.js" type="text/javascript"></script>
+  ```
 
 ## Create JS to Add the datetimepicker
 
 - Create a file `wwwroot/js/DateTimePickerReady.js` that contains the following function:
-
-<script src="https://gist.github.com/caseyobrien/80b56500d30966172c48996d4f2a0c54.js"></script>
-
-<!-- {% highlight js %}
-$(function () {
+  ```js
+  $(function () {
     $.datetimepicker.setDateFormatter('moment');
     $(".datetimefield").datetimepicker({
         format: 'MM/DD/YYYY hh:mm A',
         formatTime: 'h:mm A'
     });
-});
-{% endhighlight %} -->
+  });
+   ```  
 
 ## Create An EditorTemplate
 
 - Create a view `Views/Shared/EditorTemplates/DateTime.cshtml` that contains the following Razor code:
-
-{% highlight C# %}
+```js
 @model DateTime
 @Html.TextBox("", Model.ToString("MM/dd/yyyy hh:mm tt"),
   new { @class = "form-control datetimefield", type = "text", autocomplete="off"})
-{% endhighlight %}
+```
 
 ## Use Razor Syntax in Razor Code 
 
-{% highlight C# %}
+```html
 @Html.EditorFor(e => e.StartDate)
-{% endhighlight %}
+```
 
 ## Versions and Credits
 

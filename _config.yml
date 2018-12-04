@@ -119,15 +119,6 @@ author:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: https://linkedin.com/in/casey-obrien
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      #url: "https://twitter.com/caseyjobrien"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      #url: "https://facebook.com/cjobrienus"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
 
 
 # Site Footer
@@ -209,6 +200,7 @@ kramdown:
   toc_levels: 1..6
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
+  syntax_highligher: rouge
 
 
 # Sass/SCSS
