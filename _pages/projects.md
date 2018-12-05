@@ -16,7 +16,7 @@ Individual FinTech capstone project for evaluating personal investment risk tole
 
 ### Rally
 
-Group capstone project MeetUp-style web app that emphasizes venue/location information. [GitHub Repo](https://github.com/caseyobrien/Integration_Project){:target="_blank"}
+Group capstone project MeetUp-style web app that emphasizes venue/location information. [GitHub Repo](https://github.com/caseyobrien/rally){:target="_blank"}
 
 ![Rally Home Page](/assets/screenshots/rally_home.png){: .align-center}{:style="max-width: 500px"} 
 
