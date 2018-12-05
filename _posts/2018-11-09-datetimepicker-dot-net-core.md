@@ -6,8 +6,7 @@ tags: [tutorials, .NET Core]
 
 <!-- * Do not remove line.
 {:toc} -->
-
-<!-- {% include figure image_path="/assets/screenshots/jquery-datetimepicker.png" caption="JQuery datetimepicker" %} -->
+.NET Core does not include an easy-to-use date/time selection interface. In [Rally](../../projects), I incorporated [jquery-datetimepicker](https://github.com/xdan/datetimepicker){:target="_blank"}, a more visually attractive and intuitive interface. With Visual Studio's transition of its client-side library manager away from Bower, integrating this library into the project was non-trivial. 
 
 ![JQuery datetimepicker](/assets/screenshots/jquery-datetimepicker.png){: .align-center}{:style="max-width: 50%"} 
 
