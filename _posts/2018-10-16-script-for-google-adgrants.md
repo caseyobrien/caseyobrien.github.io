@@ -14,6 +14,23 @@ compliance to these policies. The script runs every morning around 6am and email
 that delivers the results of each test (PASS/FAIL). In the event that a test fails, enough 
 detail is provided to allow us to remedy the problem. 
 
+## Example Email
+
+```
+[PASS]: Account CTR for last 30 days is 14.06%.
+[PASS]: Account CTR for last month is 10.12%.
+[PASS]: Account has at least TWO sitelink extensions.
+[PASS]: Account uses geo-targeting.
+[PASS]: All ad links working.
+[PASS]: All sitelink extensions links working.
+[PASS]: AdGroup Center has at least TWO active text ads.
+[PASS]: AdGroup Drop-ins has at least TWO active text ads.
+[PASS]: Campaign Rooted In Mindfulness has at least TWO active ad groups.
+[PASS]: All keywords have quality scores greater than 2 (or no quality score).
+[PASS]: No single word keywords.
+[PASS]: At least one conversion in last month (2 conversions).
+```
+
 ## What do we test? 
 
 We test everything that can be easily automated. An account that passes all the following tests will not necessarily be in compliance with the Ad Grants program. There are other compliance criteria that this script does not evaluate, *and*
@@ -48,3 +65,6 @@ Note: We do not check for "a set of closely related keywords".
 
 1. Does the [account](https://support.google.com/google-ads/answer/1704396) *NOT* have any broken links?
 
+## GitHub 
+
+GitHub hosts the latest version of the compliance script: [ComplianceChecker.gs](https://github.com/caseyobrien/google-scripts/blob/master/ads/ComplianceChecker.gs).
