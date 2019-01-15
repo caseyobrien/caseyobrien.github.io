@@ -11,4 +11,7 @@ permalink: /resources/
 
 ### Design Principles
 
+-Evans, Eric. *Domain-Driven Design: Tackling Complexity in the Heart of Software.* Upper Saddle River, NJ: Addison-Wesley, 2003. [[Google Books](https://books.google.com/books?id=hHBf4YxMnWMC){:target="_blank"}]
+
 - Gamma, Erich, Richard Helm, Ralph Johnson, and John Vlissides. *Design Patterns: Elements of Reusable Object-Oriented Software*. Boston, MA: Pearson Education, 1994. [[Google Books](https://books.google.com/books/about/Design_Patterns.html?id=6oHuKQe3TjQC){:target="_blank"}]
+
