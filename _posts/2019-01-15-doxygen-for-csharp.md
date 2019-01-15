@@ -6,7 +6,7 @@ tags: [Csharp, Visual Studio, documentation, doxygen]
 
 To automatically generate `doxygen` HTML documentation for your classes after a build, complete the following steps. 
 
-1. [Download](http://www.stack.nl/~dimitri/doxygen/download.html) the binary distribution of `doxygen` for Windows. 
+1. [Download](http://www.doxygen.nl/download.html) the binary distribution of `doxygen` for Windows. 
 2. Create a folder `docs` within the main project. 
 3. Execute the following command to generate a `doxygen` configuration file. (Put it in the `docs` folder.)
 ```
