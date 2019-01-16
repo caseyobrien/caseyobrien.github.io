@@ -18,3 +18,17 @@ doxygen -g CustomList.doxygen
 doxygen $(ProjectDir)docs\$(ProjectName).doxygen
 ```
 6. Rebuild your project.
+
+## Relevant Variables
+
+| Variable Name (Tag) | Description | Default 
+|---|---|---
+| ``PROJECT_NAME`` | Single word (or sequence of words in double quotes) that identifies project
+| ``OUTPUT_DIRECTORY`` | Relative or absolute directory into which documentation will be written
+| ``EXTRACT_ALL`` | Whether to document all entities | ``NO``
+| ``EXTRACT_PRIVATE`` | Whether to include private members | ``NO``
+| ``EXTRACT_PACKAGE`` | Whether to include package members | ``NO``
+| ``EXTRACT_STATIC`` | Whether to include static members | ``NO``
+| ``INPUT`` | Files and/or directories that contain documented source files, separated with spaces. 
+| ``RECURSIVE`` | Whether subjectories should be searched for input files | ``NO``
+| ``GENERATE_LATEX`` | Whether to generate LaTeX output | ``YES``
